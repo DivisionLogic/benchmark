@@ -1,0 +1,18 @@
+.{
+    .name = "benchmark",
+    .version = "1.0.0",
+    .dependencies = .{
+        .logger = .{
+            .url = "https://github.com/DivisionLogic/logger/archive/refs/tags/1.0.0.tar.gz",
+            .hash = "122065a054dc6e27339f43ae3ead0c657c8b0bd84ab0525059d064123c78ab10a346",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "assets",
+    },
+}
